@@ -33,7 +33,7 @@
         <revision>v1-SNAPSHOT</revision>
         <java.version>11</java.version>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
-        <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
