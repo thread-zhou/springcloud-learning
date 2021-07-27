@@ -22,7 +22,7 @@ public class TestServiceClient {
 
     @GetMapping("/test/name")
     public String getUserByName(String userName){
-        ResponseEntity<String> restExchange = restTemplate.exchange("http://CORE-SERVER/core/test/fuyi", HttpMethod.GET, null, String.class);
+        ResponseEntity<String> restExchange = restTemplate.exchange("http://core/core/test/fuyi", HttpMethod.GET, null, String.class);
         String result = restExchange.getBody();
         return result;
     }
